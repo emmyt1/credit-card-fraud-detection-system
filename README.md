@@ -33,16 +33,26 @@ credit-card-fraud-detection/
 │
 └── streamlit_app/ # Streamlit frontend code
 └── app.py # Main Streamlit application
-Credit_Card_Fraud_Detection_ML.ipynb      # Main Jupyter Notebook
+data/
+└── Credit_Card_Fraud_Detection_ML.ipynb      # Main Jupyter Notebook
 README.md                                 # This file
 ```
+
+## Dataset
+
+The dataset used in this project is the "Credit Card Fraud Detection" dataset. Due to its size, it is not included in this repository.
+
+You can download the dataset from Kaggle:
+[https://www.kaggle.com/mlg-ulb/creditcardfraud](https://www.kaggle.com/mlg-ulb/creditcardfraud)
+
+Please download the `creditcard.csv` file and place it in the root directory of this project folder before running the notebook or training scripts.
 
 ## 🚀 How to Run (Locally)
 
 1.  **Clone the Repository:**
     ```bash
-    git clone https://github.com/emmyt1/credit-card-fraud-detection.git
-    cd credit-card-fraud-detection
+    git clone https://github.com/emmyt1/credit-card-fraud-detection-system.git
+    cd credit-card-fraud-detection-system
     ```
 
 2.  **Install Dependencies:**
